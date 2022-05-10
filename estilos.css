@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    
+}
+
+
+body {
+     background-color: rgb(63, 130, 150) ;
+     background-image: url("dos.png");
+  }
+main {
+    width: 100%;
+    height: 90%;
+    background-color: rgb(241, 243, 247);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section {
+    width: 40%;
+    height: 100%; 
+}
+
+.seccion1 {
+    width: 75%;
+
+}
+
+.area {
+    width: 85%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    resize: none;
+    font-size: 23px;
+    font-family: "Segoe UI";
+    border-radius: 18px;
+    border-color: #04d8e7;
+    background-color: rgb(151, 229, 243);
+}
+.btn-encriptar{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: #0acebd;
+    border-style: 18px;
+    font-family: "Segoe UI";
+    font-weight: 25px;
+    font-size: 18px;
+}
+.btn-desencriptar{
+    background-color: #ffffff;
+    border-color: #0acebd;
+    border-radius: 20px;
+    font-family: "Segoe UI";
+    font-weight: 25px;
+    font-size: 18px;
+}
+
+.btn-encriptar,
+.btn-desencriptar {
+
+    width: 25%;
+    height: 40px;
+    border-style: groove;
+    font-family: "Segoe UI";
+    font-weight: 25px;
+    font-size: 18px;
+}
+
+.contenedor-btnes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seccion2 {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor-munieco {
+    width: 100%;
+    height: 60%;
+    padding-top: 90px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor-h3 {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+
+.contenedor-parrafo {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 25px;
+    font-size: 16px;
+
+}
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding: 25%;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    
+
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20px;
+
+}
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+.ocultar{
+    display: none;
+
+
+}
